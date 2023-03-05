@@ -17,9 +17,8 @@ print(max_number2(10, 20, 30))
 # Write a Python program to reverse a string.
 
 def reverse_string(word):
-    word = [word[y] for y in range(len(word) - 1, -1, -1)]
-    return "".join(word)
-    print(reverse_string(word[y]), end="")
+    for y in range(len(word) - 1, -1, -1):
+        return(word)
 s = "1234abcd"
 print(reverse_string(s))
 
