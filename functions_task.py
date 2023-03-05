@@ -33,7 +33,7 @@ print (reversed_string("Hello, World!"))
 
 # ====== 3 task ======
 
-def sum_numbers(*digits: tuple)->float:
+def sum_numbers(*digits: float)->float:
     """Result is sum of digits"""
     result = sum(digits)
     return result
